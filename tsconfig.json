@@ -5,9 +5,6 @@
         "sourceMap": true,
         "experimentalDecorators": true,
         "declaration": true,
-        "types": [
-            "index.d.ts"
-        ],
         "exclude": [
             "node_modules",
             "dist"
