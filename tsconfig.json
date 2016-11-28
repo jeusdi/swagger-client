@@ -4,13 +4,14 @@
         "module": "commonjs",
         "sourceMap": true,
         "experimentalDecorators": true,
-        "declarations": true,
+        "declaration": true,
         "types": [
             "index.d.ts"
         ],
         "exclude": [
             "node_modules",
             "dist"
-        ]
+        ],
+        "outDir": "dist"
     }
 }
