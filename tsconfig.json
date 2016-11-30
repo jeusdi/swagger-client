@@ -2,9 +2,12 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
+        "moduleResolution": "node",
         "sourceMap": true,
+        "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "declaration": true,
+        "baseUrl": "./src",
         "outDir": "dist"
     },
     "exclude": [
@@ -12,3 +15,20 @@
         "dist"
     ]
 }
+
+/*"compilerOptions": {
+    "mapRoot": "./",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "outDir": "../dist/out-tsc",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "core-js"
+    ]
+  }*/

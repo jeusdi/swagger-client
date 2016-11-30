@@ -1,1 +1,0 @@
-java -jar "D:\projects\living\references\swagger_codegen\modules\swagger-codegen-cli\target\swagger-codegen-cli.jar" generate -i http://localhost:8082/commty/cmng/swagger.json -l typescript-angular2 -v

@@ -5,12 +5,16 @@
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "keywords": [
     "living",
     "cest"
   ],
   "author": "Living Digital Way",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^0.9.34"
+  }
 }
